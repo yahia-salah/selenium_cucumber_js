@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": ".\\node_modules\\.bin\\cucumber-js -f @cucumber/pretty-formatter .\\features\\test.feature"
+    "test": ".\\node_modules\\.bin\\cucumber-js -f @cucumber/pretty-formatter --format json:cucumber-report.json --format html:cucumber-report.html .\\features\\test.feature"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cucumber/cucumber": "^9.1.2",
+    "@cucumber/cucumber": "^8.11.1",
     "chai": "^4.3.7",
     "chai-arrays": "^2.2.0",
     "selenium-webdriver": "^4.10.0"
