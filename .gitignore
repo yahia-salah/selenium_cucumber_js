@@ -1,0 +1,6 @@
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+
+#Node Modules folder
+node_modules/

@@ -1,0 +1,21 @@
+{
+  "name": "selenium_cucumber_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ".\\node_modules\\.bin\\cucumber-js -f @cucumber/pretty-formatter .\\features\\test.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "chai": "^4.3.7",
+    "chai-arrays": "^2.2.0",
+    "selenium-webdriver": "^4.10.0"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0"
+  }
+}
